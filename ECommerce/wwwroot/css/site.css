@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /*background-color:forestgreen;*/
+    background-image: url(../Images/back.png);
+}
+.table{
+    color:aqua;
+}
+.nav-item a{
+    
+}
+.nav-item a:hover{
+    color:red;
+    text-decoration: underline;
+    
+}
+.main_div{
+    width:300px;
+    text-align:left;
+    float:left;
+}
+.child1 {
+    width: 140px;
+    float: left;
+    border:1px solid red;
+}
+.child2 {
+    width: 140px;
+    float: right;
+    border: 1px solid red;
+}
+.card{
+  background-color:green;
+  color:white
+}

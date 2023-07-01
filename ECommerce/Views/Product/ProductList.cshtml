@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ECommerce.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    <img src="Images/@item.ProductImage" width="100" height="100" />
+                    Titl:@item.Title
+                    Price:@item.Price
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
